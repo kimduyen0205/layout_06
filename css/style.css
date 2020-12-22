@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #000;
+}
+.topnav a{
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    color:#fff;
+}
+.topnav a:last-child{
+    text-decoration: none;
+    float:right;
+    display: block;
+    color:#fff;
+    padding: 14px 16px;
+}
+.topnav a:hover{
+    background-color: #f1f1f1;
+    color:#f08;
+}
+.banner{
+    /* background-color: mediumspringgreen; */
+    padding:100px;
+    text-align: center;
+    background-image: url("../images/Capture.PNG");
+}
+.FloatBox{
+    background-color: #f80;
+    height: 54px;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    display: flex;
+    align-items: center;
+    height: 54px;
+    padding:0 10px;
+}
+.logo a{
+    text-decoration: none;
+    color:#fff;
+}
+.searchBar{
+    float: left;
+    display: flex;
+    align-items: center;
+    height: 54px;
+}
+.searchBar a{
+    text-decoration: none;
+    padding: 0 10px;
+    color:#fff;
+}
+.menu{
+    float: right;
+    display: flex;
+    align-items: center;
+    height: 54px;
+}
+.navigation{
+    display: flex;
+}
+.navigation a{
+    text-decoration: none;
+    padding:0 0 0 18px;
+    margin: 5px 10px;
+    color:#fff;
+}
+.container{
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.row{
+    overflow: hidden;
+    /* background-color: orchid; */
+}
+.leftcolumn{
+    float: left;
+    width: calc(25% - 5px);
+    /* background-color: mediumvioletred; */
+    padding-right: 5px;
+}
+.middlecolumn{
+    float: left;
+    width: 50%;
+    /* background-color: #cacaca; */
+}
+.rightcolumn{
+    float: left;
+    width: calc(25% - 5px);
+    /* background-color: yellow; */
+    padding-left: 5px;
+}
+.card{
+    padding:20px;
+    background-color: #fff;
+    margin-top:20px;
+}
+.fakeimg{
+    padding:20px;
+    background-color: #cacaca;
+}
+.footer{
+    padding:25px;
+    text-align: center;
+    background-color: grey;
+    color:#fff;
+    font-weight: bold;
+}
+@media (max-width:400px){
+    .topnav a{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .topnav a:last-child{
+        width: 100%;
+        float:none;
+        text-align: center;
+    }
+}
+@media (max-width:768px){
+    .searchBar{
+        display: none;
+    }
+    .navigation a{
+        display:block;
+    }
+    .leftcolumn{
+        width: 100%;
+        float:none;
+    }
+    .middlecolumn{
+        width: 100%;
+        float:none;
+    }
+    .rightcolumn{
+        width: 100%;
+        float:none;
+    }
+
+}
